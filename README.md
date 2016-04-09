@@ -1,2 +1,2 @@
-# mongodbx-s_m101x
-Edx course MongoDBx: M101x
+# MongoDBx's M101x
+Introduction to MongoDB using the MEAN Stack
