@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/KachynskyyOleksiy/mongodbx-s_m101x/issues"
   },
-  "homepage": "https://github.com/KachynskyyOleksiy/mongodbx-s_m101x#readme"
+  "homepage": "https://github.com/KachynskyyOleksiy/mongodbx-s_m101x#readme",
+  "dependencies": {
+    "mongodb": "^2.1.16"
+  }
 }
