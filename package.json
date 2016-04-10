@@ -4,7 +4,8 @@
   "description": "Introduction to MongoDB using the MEAN Stack",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test.js",
+    "test-kitten": "mocha -R nyan test.js",
     "start": "node server.js"
   },
   "repository": {
