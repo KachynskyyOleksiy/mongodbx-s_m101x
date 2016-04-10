@@ -1,10 +1,10 @@
 var mongoose = require('mongoose');
-var schema = require('./schema');
+var userSchema = require('./user');
 
 mongoose.connect('mongodb://localhost:27017/edxMEAN');
 
 // (model name, schema, collection name)
-var User = mongoose.model('User', schema, 'users');
+var User = mongoose.model('User', userSchema, 'users');
 
 var user = new User({
   name: 'John Smith',
