@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/KachynskyyOleksiy/mongodbx-s_m101x#readme",
   "dependencies": {
+    "mocha": "^2.4.5",
     "mongodb": "^2.1.16"
   }
 }
