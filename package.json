@@ -4,8 +4,9 @@
   "description": "Introduction to MongoDB using the MEAN Stack",
   "main": "server.js",
   "scripts": {
-    "test": "mocha test.js",
-    "test-kitten": "mocha -R nyan test.js",
+    "test": "mocha tests/test.js",
+    "test-kitten": "mocha -R nyan tests/test.js",
+    "watch": "gulp watch",
     "start": "node server.js"
   },
   "repository": {
@@ -27,6 +28,8 @@
   },
   "homepage": "https://github.com/KachynskyyOleksiy/mongodbx-s_m101x#readme",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
     "mocha": "^2.4.5",
     "mongodb": "^2.1.16"
   }
